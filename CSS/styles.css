@@ -234,6 +234,16 @@ header h1 {
     margin: 1em 0;
 }
 
+.null-img-container {
+    border-radius: 10px;
+    border: 1px solid #c6c8d1;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 10px, #c6c8d1 10px, #c6c8d1 11px);
+    padding-bottom: 56.25%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    filter: none;
+}
+
 
 
 .project:hover {
