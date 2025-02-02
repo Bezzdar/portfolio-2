@@ -285,7 +285,7 @@ header h1 {
         transform: rotate(0);
     }
     20% {
-        transform: rotate(-20deg);
+        transform: rotate(-19deg);
     }
     40% {
         transform: rotate(20deg);
