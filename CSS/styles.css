@@ -61,7 +61,7 @@ header h1 {
 
 .first-name {
     color: transparent;
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
 
@@ -345,3 +345,30 @@ header h1 {
     }
 }
 
+
+.number-36 {
+    color: orange;
+    font-weight: bold;
+  }
+
+  
+  .floating-number {
+    position: absolute;
+    font-size: 24px;
+    color: orange;
+    font-weight: bold;
+    opacity: 1;
+    animation: floatUp 1.5s ease-out forwards;
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  }
+  
