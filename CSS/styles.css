@@ -353,22 +353,22 @@ header h1 {
 
   
   .floating-number {
-    position: absolute;
-    font-size: 24px;
-    color: orange;
-    font-weight: bold;
+  position: absolute;
+  font-size: 24px;
+  color: orange;
+  font-weight: bold;
+  opacity: 1;
+  animation: floatUp 1.5s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
     opacity: 1;
-    animation: floatUp 1.5s ease-out forwards;
   }
-  
-  @keyframes floatUp {
-    0% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-    100% {
-      transform: translateY(-50px);
-      opacity: 0;
-    }
+  100% {
+    transform: translateY(-50px);
+    opacity: 0;
   }
-  
+}
+
