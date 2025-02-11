@@ -1,5 +1,5 @@
 
-# Portfolio for developer #3
+# Portfolio for developer #2
 
 This project is my personal portfolio, built using **HTML**, **CSS**, and **JavaScript**. During development, I learned and applied **Flexbox**, which helped create a responsive and well-structured layout.
 
