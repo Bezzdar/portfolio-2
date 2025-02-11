@@ -104,6 +104,7 @@ header h1 {
 
 
 .social-img {
+    color: white;
     width: 50px;
     margin-bottom: 10px;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -313,6 +314,7 @@ header h1 {
 
 @media (max-width: 1150px) {
     .socials {
+        color: white;
         position: static;
         display: flex;
         flex-direction: row;
