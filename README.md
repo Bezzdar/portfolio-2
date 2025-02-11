@@ -1,6 +1,7 @@
 
 # Portfolio for developer #2
 
+№№ Description
 This project is my personal portfolio, built using **HTML**, **CSS**, and **JavaScript**. During development, I learned and applied **Flexbox**, which helped create a responsive and well-structured layout.
 
 The portfolio includes information about me, links to my social media, and a section showcasing my projects. The website is designed with a focus on minimalism and easy navigation.🚀
